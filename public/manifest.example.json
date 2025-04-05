@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "Chrome Extension Template",
+  "version": "1.0.0",
+  "description": "A template for Chrome extension development",
+  "permissions": [
+    "storage",
+    "activeTab"
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ],
+  "options_page": "setting.html"
+}

@@ -1,0 +1,45 @@
+body {
+  width: 400px;
+  min-height: 300px;
+  padding: 10px;
+  font-family: -apple-system, system-ui, BlinkMacSystemFont;
+}
+
+.container {
+  padding: 15px;
+}
+
+.btn {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn-primary {
+  background-color: #1a73e8;
+  border-color: #1a73e8;
+  color: white;
+}
+
+.btn-primary:hover {
+  background-color: #1557b0;
+  border-color: #1557b0;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-control {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+/* Override một số style mặc định của Bootstrap nếu cần */
+.card {
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,.1);
+}

@@ -1,0 +1,11 @@
+/node_modules/
+/dist/
+/dist_production/
+/dist_development/
+*test.js
+*test2.js
+.env.development
+.env.production
+/public/manifest.development.json
+/public/manifest.production.json
+*.zip

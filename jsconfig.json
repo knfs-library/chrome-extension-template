@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        "module": "ES6",
+        "target": "ES6",
+        "baseUrl": ".",
+        "checkJs": true,
+        "moduleResolution": "node",
+        "resolveJsonModule": true,
+        "esModuleInterop": true,
+        "paths": {
+            "*": ["*", "src/*"]
+        }
+    },
+    "exclude": ["node_modules", "dist"]
+}
